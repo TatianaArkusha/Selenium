@@ -1,0 +1,21 @@
+<suite name="UI tests" verbose="1">
+    <tests>
+ <!--запуск тестов-->
+        <test name="Windows = Chrome Test">
+            <classes>
+                <class name="com.firefox"/>
+                <!--<class name="com.google.ThomascookTest"/>-->
+                <!--<class name="com.google.AlertBox"/>-->
+                <!--<class name="com.google.StylusSearchTest"/>-->
+            </classes>
+        </test>
+
+<!--можно запустить все тесты в одном пакете-->
+        <test name="Windows = Com.Chrome Test">
+            <packages>
+                <package name="com.google" />
+            </packages>
+        </test>
+    </tests>
+
+</suite>

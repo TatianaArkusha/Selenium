@@ -1,0 +1,6 @@
+Selenium\pages\GoogleSearchPage.class
+Selenium\core\TestListener.class
+Selenium\core\WebDriverTestBase.class
+Selenium\pages\GoogleResultPage.class
+Selenium\pages\AbstractPage.class
+Selenium\core\PropertiesCache.class
